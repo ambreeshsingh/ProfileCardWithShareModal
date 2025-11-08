@@ -2,7 +2,7 @@ const Modal = document.querySelector(".modal");
 const Overlay = document.querySelector(".overlay");
 
 function OpenModal() {
-    console.log(Modal);
+    console.log("Modal is open");
     Modal.classList.add("active");
     Overlay.classList.add("overlayactive");
 }
